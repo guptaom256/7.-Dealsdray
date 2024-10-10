@@ -1,0 +1,56 @@
+.add-emp{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-emp > h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.inp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 30px;
+}
+
+.emp-inp {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;   
+    padding: 10px; 
+    margin: 0 auto;
+    width: 30%;
+}
+
+.emp-inp p{
+    padding: 5px 10px;
+    width: 30%;
+}
+
+.emp-inp input{
+    width: 60%;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+}
+
+.add-emp button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 15px 0;
+    width: 250px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    transition: all 0.4s;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.add-emp button:hover{
+    color: black;
+    background-color: white;
+}

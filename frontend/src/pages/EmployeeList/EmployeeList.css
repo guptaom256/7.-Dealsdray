@@ -1,0 +1,56 @@
+.employee-list{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.count-btn p{
+    margin-top: 20px;
+}
+
+.employee-list .count-btn > button{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.list-container{
+    padding-top: 50px;
+}
+
+.list-container .header{
+    display: grid;
+    grid-template-columns: 5fr 1.2fr 3fr 4fr 4fr 3fr 1fr 1.5fr 2fr 2fr;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.list-container .content{
+    display: grid;
+    grid-template-columns: 5fr 1.2fr 3fr 4fr 4fr 3fr 1fr 1.5fr 2fr 2fr;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.list-container .content img{
+    width: 30px ;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.list-container .content svg{
+    cursor: pointer;
+}
+
+.list-container .content:last-child{
+    border-bottom: 1px solid black;
+}

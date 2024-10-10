@@ -1,0 +1,29 @@
+.edit-emp{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-emp > h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.edit-emp button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 15px 0;
+    width: 250px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    transition: all 0.4s;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.edit-emp button:hover{
+    color: black;
+    background-color: white;
+}
